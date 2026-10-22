@@ -18,7 +18,6 @@
 
 .container {
     width: 100%;
-    max-width: 480px;
     text-align: center;
 }
 
@@ -78,7 +77,27 @@ p {
 .btn-back {
   background-color: mediumpurple;
   color: white;
-}  
+} 
+
+.status-badge {
+  background-color: rgba(16, 185, 129, 0.1);
+  border: 1px solid#10b981;
+  color: #34d399;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+.status-badge span {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
   </style>
   </head>
   <body>
@@ -94,6 +113,11 @@ p {
     </div>
     </div>
     <a href="https://peakgamesxxsiteofcxx.vercel.app/" target="_blank" class="btn btn-back"  style="display: inline-block; margin-top: 1.5rem; padding: 0.8rem 1.5rem;">◀️ Voltar para início</a>
+    <div class="status-badge">
+      <div>
+        <span>Previsão para novos vídeos: 27/10/2026</span>
+      </div>
+    </div>
 <footer>
   <p style="margin-bottom: 0.5rem;">Vídeos novos no futuro! Fiquem ligados e se inscrevam!</p>
 </footer>
