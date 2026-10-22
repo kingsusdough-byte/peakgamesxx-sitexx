@@ -1,0 +1,229 @@
+<<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeakGamesxx | Hub R36S</title>
+    <style>
+        /* RESET & CORES GLOBAIS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #0f172a; /* Azul escuro moderno */
+            color: #f8fafc;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 2rem 1rem;
+        }
+
+        /* CONTAINER PRINCIPAL */
+        .container {
+            width: 100%;
+            max-width: 480px;
+            text-align: center;
+        }
+
+        /* CABEÇALHO / PERFIL */
+        .profile {
+            margin-bottom: 2rem;
+        }
+
+        .avatar-fallback {
+            width: 96px;
+            height: 96px;
+            background: linear-gradient(135deg, #ef4444, #3b82f6);
+            border-radius: 50%;
+            margin: 0 auto 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            font-weight: bold;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.025em;
+        }
+
+        .bio {
+            font-size: 0.95rem;
+            color: #94a3b8;
+            line-height: 1.5;
+            padding: 0 1rem;
+        }
+
+        /* CONTAINER DOS BOTÕES */
+        .links-group {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-bottom: 2.5rem;
+        }
+
+        /* ESTILO DOS BOTÕES (LINKS) */
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        /* CORES ESPECÍFICAS DE CADA BOTÃO */
+        .btn-youtube {
+            background-color: #ef4444; /* Vermelho YouTube */
+            color: #ffffff;
+        }
+        .btn-youtube:hover {
+            box-shadow: 0 10px 15px -3px rgba(239, 68, 68, 0.3);
+        }
+
+        .btn-community {
+            background-color: #2563eb; /* Azul Telegram/Discord/Comunidade */
+            color: #ffffff;
+        }
+        .btn-community:hover {
+            box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.3);
+        }
+
+        .btn-tiktok {
+            background-color: #ffffff; /* Branco TikTok */
+            color: #000000;
+        }
+        .btn-tiktok:hover {
+            box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-store {
+            background-color: #10b981; /* Verde Seguro para Afiliados */
+            color: #ffffff;
+        }
+        .btn-store:hover {
+            box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.3);
+        }
+
+        /* BOTOES DO GITHUB (SISTEMAS) */
+        .btn-github {
+            background-color: #24292e; /* Cinza Escuro GitHub */
+            color: #ffffff;
+        }
+        .btn-github:hover {
+            box-shadow: 0 10px 15px -3px rgba(36, 41, 46, 0.4);
+        }
+
+        /* BOTOES DE ROMS E MINECRAFT */
+        .btn-roms { 
+            background-color: #7c3aed; /* Roxo Moderno */
+            color: #ffffff;
+        }
+        .btn-roms:hover {
+            box-shadow: 0 10px 15px -3px rgba(124, 58, 237, 0.4);
+        }
+
+        /* RODAPÉ DO SITE */
+        footer {
+            margin-top: auto;
+            font-size: 0.8rem;
+            color: #64748b;
+        }      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Cabeçalho do Perfil -->
+        <header class="profile">
+            <div class="avatar-fallback" style="width: auto; height: auto; padding: 0.5rem 1.5rem; border-radius: 20px; font-size: 1.2rem;">Mendes</div>
+            <h1>@peakgamesxx</h1>
+            <p class="bio">O hub oficial da nossa comunidade de R36S. Acesse os tutoriais, baixe os sistemas atualizados e entre no grupo livre de anúncios!</p>
+        </header>
+
+        <!-- Seus botões começam aqui embaixo na tag <body> -->
+
+
+        <!-- Lista de Links Importantes -->
+        <main class="links-group">
+          
+            <a href="https://peakgamesxxvideosofcxx.vercel.app/" class="btn btn-roms">
+             📺 Assistir a videos recomendados
+            </a>
+            <a href="https://www.youtube.com/@Peakgamesxx" target="_blank" class="btn btn-youtube">
+                🎥 Canal do YouTube (Tutoriais)
+            </a>
+
+            <a href="https://tiktok.me/group/ZSb9hvhLG/" target="_blank" class="btn btn-community">
+                💬 Entrar no Grupo da Comunidade
+            </a>
+
+            <a href="https://tiktok.com/@peakgamesxx" target="_blank" class="btn btn-tiktok">
+                📱 Siga no TikTok
+            </a>
+              <!-- NOVA SEÇÃO: SISTEMAS ATUALIZADOS NO GITHUB -->
+            <div style="margin-top: 1.5rem; text-align: left;">
+                <h2 style="font-size: 1.1rem; color: #94a3b8; margin-bottom: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">💾 Sistemas para o R36S</h2>
+            </div>
+
+            <!-- Botão do ArkOS oficial (Substitua o LINK_DO_ARKOS pelo link real do GitHub se quiser) -->
+            <a href="https://github.com/AeolusUX/ArkOS-R3XS/releases" target="_blank" class="btn btn-github">
+                🤖 ArkOS Atualizado (GitHub Oficial)
+            </a>
+
+            <!-- Botão para outro sistema que você use nos vídeos (ex: AeonOS ou Rocknix) -->
+            <a href="https://github.com/topics/r36s" target="_blank" class="btn btn-github">
+                👾 Outros Sistemas (GitHub)
+            </a>
+    <!-- INÍCIO DA SEÇÃO QUEST 6 -->
+<div style="margin-top: 1.8rem; text-align: left; width: 100%;">
+    <h2 style="font-size: 1.1rem; color: #94a3b8; margin-bottom: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">🎮 Baixar Jogos (ROMs)</h2>
+</div>
+
+<a href="https://romsfun.com/roms/game-boy-advance/" target="_blank" class="btn btn-roms">
+    👾 ROMs de Game Boy Advance (GBA)
+</a>
+
+<a href="https://romsfun.com/roms/playstation-portable/" target="_blank" class="btn btn-roms">
+    🕹️ ROMs de PSP (PlayStation Portable)
+</a>
+
+<a href="https://romsfun.com/roms/playstation/" target="_blank" class="btn btn-roms">
+    💿 ROMs de PlayStation 1 (PS1)
+</a>
+<a href="https://github.com/eyxgamer454-debug/Minecraft-PSP" target="_blank" class="btn btn-roms">
+  👾 MCPE PSP Edition
+</a>
+<a href="https://www.mediafire.com/file/4aql460019bltdd/MC-PSP+4.6+pre5.zip/file" target="_blank" class="btn btn-roms">
+  ⌨️ Minecraft-PSP
+</a>
+
+
+
+        </main>
+
+        <!-- Rodapé reforçando o compromisso com o usuário -->
+        <footer>
+    <p style="margin-bottom: 0.5rem;">Site 100% livre de anúncios em respeito à comunidade. ❤️</p>
+    <p style="font-size: 0.7rem; opacity: 0.6; padding: 0.1rem;">Aviso: Este site apenas indica links públicos da internet para fins educacionais de emulação. Não hospedamos nenhum arquivo ilegal.</p>
+</footer>
+
+
+</body>
+</html>
